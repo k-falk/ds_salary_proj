@@ -9,7 +9,12 @@ import glassdoor_scraper as gs
 import pandas as pd
 
 path = "C:/Users/Xkfal/Documents/ds_salary_proj/chromedriver"
+df1 = gs.get_jobs('data scientist', 300, False , path, 30)
 
-df = gs.get_jobs('data scientist', 15, False , path, 5)
+df2 = gs.get_jobs('data scientist', 300, False , path, 30)
 
-df
+df3 = gs.get_jobs('data scientist', 300, False , path, 30)
+
+df = pd.concat([df1,df2,df3])
+
+df.to_csv('C:/Users/Xkfal/Documents/ds_salary_proj/job_data.csv')
