@@ -1,2 +1,4 @@
-# ds_salary_proj
-# ds_salary_proj
+# Data Scientist Salary Project
+
+## Data Scraper
+url: https://github.com/arapfaik/scraping-glassdoor-selenium
