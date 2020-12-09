@@ -52,7 +52,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-This is a data science project to analyze and predict the estimated salary of data scientist jobs on Glassdoor. I have done everything from scraping the data on glassdoor to building regression models to make salary predictions off the sata. 
+This is a data science project to analyze and predict the estimated salary of data scientist jobs on Glassdoor. I have done everything from scraping the data on glassdoor to building regression models to make salary predictions off the data. 
 
 
 ### Built With
@@ -84,7 +84,7 @@ After scraping, here is the information we got:
 
 <!-- Data Cleaning-->
 ## Data Cleaning
-Unfortunately, I our data was somewhat incomplete. Some of the things we scraped were not available to us. Notably, number of competitors and headquarters was unable to be scraped using the scraper we used. 
+Unfortunately, our data was somewhat incomplete. Some of the things we scraped were not available to us. Notably, number of competitors and headquarters was unable to be scraped using the scraper we used. 
 
 Other things we did include:
 Getting the company age from year founded, getting the average salary from the glassdoor salary range, getting simplified titles from the job names, and pulling out information from the job description such as different skills listed. 
