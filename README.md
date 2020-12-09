@@ -117,9 +117,9 @@ For our model building, we used sklearn and its cross_val_score function to eval
 * Decision Tree
 * Gradient Boosting
 
-After running our models, the clear winner was Gradient Boosting with a MAE of 19.7. 
+After running our models, the clear winner was Gradient Boosting with a MAE of 13.7. 
 
-We then ran a Grid Search on that model to see if we can tune it for better results. After running Grid Search we were able to get that number down to 19.2
+We then ran a Grid Search on that model to see if we can tune it for better results. After running Grid Search we were able to get that number down to 13.2
 
 
 <!-- LICENSE -->
